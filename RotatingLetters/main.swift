@@ -33,6 +33,17 @@ while  1 == 1 {
             continue
     }
     
+    // Text #3 Check to ensure there is only UPPERCASE letters and no spaces
+    for individualCharacter in givenInput {
+        //Debug: Print the character we are looking at
+        
+        //Check the character
+        switch individualCharacter {
+        case "A", "B", "C", "D", "E", "F", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+        }
+        
+    }
+    
     // if we got to this point, we know the input is good
     break
     // break quits the while loop
